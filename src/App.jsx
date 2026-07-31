@@ -24,6 +24,7 @@ function App() {
             I build modern websites and I'm learning React to become a
             professional Frontend Developer.
           </p>
+
           <div className="buttons">
             <button className="btn">📄 Download Resume</button>
             <button className="btn">📞 Contact Me</button>
@@ -33,6 +34,7 @@ function App() {
 
       <section className="about" id="about">
         <h2>About Me</h2>
+
         <div className="about-content">
           <div className="about-text">
             <p>
@@ -45,55 +47,128 @@ function App() {
           <div className="about-info">
             <p><strong>📍 Location:</strong> Mumbai</p>
             <p><strong>🎓 Education:</strong> Diploma in Computer Engineering</p>
-            <p><strong>💻 Skills:</strong> Computer Fundamentals, MS Office, HTML, CSS, JavaScript, React, Git & GitHub</p>
-            <p><strong>🎯 Goal:</strong> Become a Professional Frontend Developer.</p>
+            <p>
+              <strong>💻 Skills:</strong> Computer Fundamentals, MS Office,
+              HTML, CSS, JavaScript, React, Git & GitHub
+            </p>
+            <p>
+              <strong>🎯 Goal:</strong> Become a Professional Frontend Developer.
+            </p>
           </div>
         </div>
       </section>
 
       <section className="skills" id="skills">
         <h2>My Skills</h2>
+
         <div className="skills-container">
-          <div className="skill-card"><h3>💻 Computer Fundamentals</h3><p>Comfortable with Windows and computer operations.</p></div>
-          <div className="skill-card"><h3>📄 MS Office</h3><p>Word, Excel and PowerPoint.</p></div>
-          <div className="skill-card"><h3>🌐 HTML</h3><p>Learning website structure.</p></div>
-          <div className="skill-card"><h3>🎨 CSS</h3><p>Learning responsive design.</p></div>
-          <div className="skill-card"><h3>⚡ JavaScript</h3><p>Learning programming.</p></div>
-          <div className="skill-card"><h3>⚛ React</h3><p>Building modern frontend applications.</p></div>
+          <div className="skill-card">
+            <h3>💻 Computer Fundamentals</h3>
+            <p>Comfortable with Windows and computer operations.</p>
+          </div>
+
+          <div className="skill-card">
+            <h3>📄 MS Office</h3>
+            <p>Word, Excel and PowerPoint.</p>
+          </div>
+
+          <div className="skill-card">
+            <h3>🌐 HTML</h3>
+            <p>Learning website structure.</p>
+          </div>
+
+          <div className="skill-card">
+            <h3>🎨 CSS</h3>
+            <p>Learning responsive design.</p>
+          </div>
+
+          <div className="skill-card">
+            <h3>⚡ JavaScript</h3>
+            <p>Learning programming.</p>
+          </div>
+
+          <div className="skill-card">
+            <h3>⚛ React</h3>
+            <p>Building modern frontend applications.</p>
+          </div>
         </div>
       </section>
 
       <section className="projects" id="projects">
         <h2>My Projects</h2>
+
         <div className="projects-container">
           <div className="project-card">
             <h3>🌐 Personal Portfolio</h3>
             <p>A responsive portfolio built with React.</p>
-            <button className="btn">View Project</button>
+
+            <div className="buttons">
+              <a
+                href="https://portfolio-orpin-omega-78.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="btn">🌐 Live Demo</button>
+              </a>
+
+              <a
+                href="https://github.com/Adityamani-Dev/portfolio"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="btn">💻 GitHub</button>
+              </a>
+            </div>
           </div>
+
           <div className="project-card">
-            <h3>🚀 More Projects Coming Soon</h3>
-            <p>More frontend projects will be added soon.</p>
-            <button className="btn">Coming Soon</button>
+            <h3>🛒 ManiMart</h3>
+
+            <p>
+              A modern React E-commerce application featuring product search,
+              shopping cart, responsive UI, and a clean shopping experience.
+            </p>
+
+            <div className="buttons">
+              <a
+                href="https://manimart.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="btn">🌐 Live Demo</button>
+              </a>
+
+              <a
+                href="https://github.com/Adityamani-Dev/manimart"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="btn">💻 GitHub</button>
+              </a>
+            </div>
           </div>
         </div>
       </section>
 
       <section className="contact" id="contact">
         <h2>Contact Me</h2>
+
         <div className="contact-container">
           <div className="contact-info">
             <h3>Let's Connect</h3>
+
             <p>📍 Mumbai, India</p>
             <p>📧 connectwithadityamani@gmail.com</p>
             <p>📱 +91 8082360745</p>
             <p>💻 github.com/Adityamani-Dev</p>
           </div>
+
           <div className="contact-form">
             <form>
               <input type="text" placeholder="Your Name" />
               <input type="email" placeholder="Your Email" />
               <textarea rows="6" placeholder="Your Message"></textarea>
+
               <button className="btn">Send Message</button>
             </form>
           </div>
@@ -102,14 +177,19 @@ function App() {
 
       <footer className="footer">
         <h3>Adityamani Pandey</h3>
+
         <p>Designed & Developed using React ❤️</p>
+
         <div className="footer-links">
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
         </div>
-        <p className="copyright">© 2026 Adityamani Pandey. All Rights Reserved.</p>
+
+        <p className="copyright">
+          © 2026 Adityamani Pandey. All Rights Reserved.
+        </p>
       </footer>
     </>
   );
