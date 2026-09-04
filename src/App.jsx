@@ -122,16 +122,16 @@ function App() {
           </div>
 
           <div className="project-card">
-            <h3>🛒 ManiMart</h3>
+            <h3>🌍 Travel Freaks</h3>
 
             <p>
-              A modern React E-commerce application featuring product search,
-              shopping cart, responsive UI, and a clean shopping experience.
-            </p>
+  A modern React travel information platform designed to help travellers
+  discover destinations, explore useful travel information, and plan better trips.
+</p>
 
             <div className="buttons">
               <a
-                href="https://manimart.vercel.app"
+                href="https://travelfreaks.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -139,7 +139,7 @@ function App() {
               </a>
 
               <a
-                href="https://github.com/Adityamani-Dev/manimart"
+                href="https://github.com/Adityamani-Dev/travel-freaks"
                 target="_blank"
                 rel="noopener noreferrer"
               >
